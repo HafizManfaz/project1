@@ -1,0 +1,35 @@
+# Ignore everything
+*
+
+# But not these files/directories:
+!.gitignore
+!manage.py
+!db.sqlite3
+!media/
+!static/
+!theme/
+!myapp/
+!image_uploader/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore environment files
+.env
+*.env
+venv/
+django_venv/
+ENV/
+env/
+.venv/
+
+# Ignore node modules (for Tailwind)
+node_modules/
+theme/static_src/node_modules/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
